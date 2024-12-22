@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Satoshi-Regular;
+    src: url(Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Satoshi-Regular;
+}
+
+/* NavBar-------------------------------------------- */
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: Satoshi-Regular;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px   20px;
+    font-size: 20px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 70px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+
+}
+
+.logo{
+    cursor: pointer;
+}
+
+
+/* Home-------------------------------------------- */
+.backimg{
+    background-image: url(spacex-OHOU-5UVIYQ-unsplash.2e16d0ba.fill-1600x800.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    margin-top: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.547), rgba(0, 0, 0, 0.567)), url(spacex-OHOU-5UVIYQ-unsplash.2e16d0ba.fill-1600x800.jpg);
+    margin: 0%;
+}
